@@ -2,7 +2,7 @@
 #include <pthread.h>
 #include <algorithm>
 #include <cmath>
-#include "nnetwork_parallel.h"
+#include "nnetwork.h"
 #include <thread>
 #include <iostream>
 

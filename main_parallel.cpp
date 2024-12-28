@@ -2,7 +2,7 @@
 #include <vector>
 #include <cmath>
 #include <chrono>
-#include "models/nnetwork_parallel.h"
+#include "models/nnetwork.h"
 
 int main() {
 
