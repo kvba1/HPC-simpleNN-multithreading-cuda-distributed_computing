@@ -1,5 +1,5 @@
 CXX=clang++
-CXXFLAGS=-std=c++11 -arch arm64
+CXXFLAGS=-std=c++11
 
 all: neural_network neural_network_parallel
 
