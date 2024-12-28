@@ -6,7 +6,7 @@ all: neural_network neural_network_parallel
 neural_network: main.cpp models/nnetwork.cpp
 	$(CXX) $(CXXFLAGS) -o $@ $^
 
-neural_network_parallel: main_parallel.cpp models/nnetwork_parallel.cpp
+neural_network_parallel: main.cpp models/nnetwork_parallel.cpp
 	$(CXX) $(CXXFLAGS) -o $@ $^ -lpthread
 clean:
 	rm -f neural_network
